@@ -12,12 +12,13 @@ header{
 }
 .nav-bar{
     display: flex;
+    background-color: #000000;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    /* position: sticky;
-    top: 10px;
-    overflow: hidden; */
+    position: sticky;
+    top: 0.1px;
+    z-index: 10;
     box-sizing: border-box;
     box-shadow: 0px 5px 30px aqua;
 
