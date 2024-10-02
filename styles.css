@@ -101,7 +101,7 @@ section{
     margin-top: 50px;
 }
 .section-infor{
-    margin-top: 100px;
+    margin-top: 200px;
     align-items: center;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -112,7 +112,7 @@ section{
 
 }
 .infor-pera{
-    font-size: 25px;
+    font-size: 15px;
 }
 .download-btn{
     margin-top: 20px;
@@ -158,6 +158,8 @@ section{
 
 .progress-container {
     max-width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: #e0e0e0;
     border-radius: 20px;
     overflow: hidden;
@@ -194,6 +196,7 @@ footer{
 }
 .footer-h1{
     /* margin-top: 100px; */
+    padding: 30px;
     font-size: 50px;
     font-weight: 900;
 }
