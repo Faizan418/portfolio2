@@ -12,18 +12,21 @@
         <div class="logoO">
             <a href="#"><img class="logo" src="./perfect-logo.png" alt="logo"></a>
         </div>
-        <ul>
-            <span class="home"><li class="li-a">
-                <a class="a-li" href="#">Home</a></li></span>
-            <li class="li-a"><a class="a-li" href="#about" target="_blank">About</a></li>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <ul class="nav-links">
+            <li class="li-a"><a class="a-li" href="#">Home</a></li>
+            <li class="li-a"><a class="a-li" href="#about">About</a></li>
             <li class="li-a"><a class="a-li" href="https://static-interactive-resume-nine.vercel.app/" target="_blank">Resume</a></li>
-            <li class="li-a"><a class="a-li" href="#skills" target="_blank">Skills</a></li>
+            <li class="li-a"><a class="a-li" href="#skills">Skills</a></li>
             <li class="li-a"><a class="a-li" href="https://project-list-kappa.vercel.app/" target="_blank">Projects</a></li>
             
         </ul>
     </nav>
-    <header>
-        
+
+
+    <header> 
 <div class="information">
         <div class="intro">
             <h1>Hello!</h1>
@@ -44,14 +47,14 @@
             </div>
 
             <div class="section-infor">
-                <h1 class="infor-h1">About Me</h1>
+                <h1 class="infor-h1">Information</h1>
                 <p class="infor-pera">Name: <span class="name"> Muhammad Faizan Soomro</span></p>
                 <p class="infor-pera">Date of Bith: <span class="name"> 23/July/2004</span></p>
                 <p class="infor-pera">Phone: <span class="name"> 0340-6044-359</span></p>
                 <p class="infor-pera">Email: <span class="name"> muhammadf4060@gmail.com</span></p>
                 <p class="infor-pera">Address: <span class="name"> C/o R-505 Rafi Bunglow's Malir-15 Karachi</span></p>
 
-                <a href="cv.pdf" download="Faizan'sCV.pdf" class="download-btn">Download CV</a>
+                <a href="Resume.png" download="Faizan's_CV.png" class="download-btn">Download CV</a>
             </div>
 
         </div>
@@ -122,6 +125,11 @@
         <h3 class="last-tag">&copy; 2024; portfolio <br> created by Muhammad Faizan.</h3>
     </footer>
     
-
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
