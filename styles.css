@@ -99,8 +99,8 @@ section{
     margin-top: 100px;
 }
 .picture{
-    width: 340px;
-    height: 450px;
+    width: 370px;
+    height: 470px;
     margin-top: 50px;
 }
 .section-infor{
@@ -281,6 +281,6 @@ footer{
 }
 @media (max-width: 400px){
     .intro{
-        font-size: 22px;
+        font-size: 25px;
     }
 }
