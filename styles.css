@@ -36,9 +36,6 @@ body{
     margin: 0 10px; 
     border-radius: 5px;
 }
-.li-a:hover{
-    /* background-color: rgba(0, 255, 255, 0.24); */
-}
 .a-li{
     font-size: 20px;
     text-decoration: none;
